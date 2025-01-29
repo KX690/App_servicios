@@ -15,7 +15,7 @@ body{
     background-image: url('./static/fondo2.jpg');
     background-size: cover;
     background-position: center;
-    
+    background-repeat: no-repeat;
 }
 
 header{
@@ -37,6 +37,13 @@ header{
     color: rgb(255, 255, 255);
     user-select: none;
 }
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navegacion a {
     position: relative;
     font-size: 1.1em;
@@ -85,6 +92,8 @@ header{
     color: #162938;
 }
 
+
+
 .wrapper{
     position: relative;
     width: 440px;
@@ -102,9 +111,6 @@ header{
     transition: height .2s ease;
 
 }
-
-
-
 
 .whapper .form-box.register{
     position: absolute;
@@ -251,4 +257,18 @@ header{
 
 .login-register p a:hover{
     text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .navegacion {
+        flex-direction: column;
+    }
+    .navegacion a {
+        padding: 10px;
+        text-align: center;
+    }
+    .wrapper{
+        margin-top: 250px;
+    }
+    
 }
