@@ -32,7 +32,7 @@ function loadProveedores() {
                     <p class="proveedor-city">Ciudad: \t ${proveedor.ciudad}</p>
                     <p class="proveedor-number">Numero: \t ${proveedor.numero}</p>
                     </div>
-                    <a href="info.html" class="contact-button">Contactar</a>
+                    <a href="#" class="contact-button">Contactar</a>
             </div>
       `;
         proveedorContainer.innerHTML += card;
