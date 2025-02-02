@@ -19,5 +19,5 @@ Sigue estos pasos para visualizar la página correctamente:
 3. **Ejecutar la página**  
    - Abre el archivo `index.html` en tu navegador favorito y ¡listo! 🚀  
 
-## 📂 Estructura del proyecto  
+
 
