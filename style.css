@@ -285,6 +285,7 @@ footer{
 @media (max-width: 700px) {
     .navegacion {
         flex-direction: column;
+        
     }
     .navegacion a {
         padding: 10px;
@@ -292,5 +293,11 @@ footer{
     }
     .wrapper{
         width: 100%;
+        
     }
+    .enlaces-header{
+        margin-bottom: 20px;
+        
+    }
+  
 }

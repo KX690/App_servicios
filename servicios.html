@@ -11,23 +11,28 @@
     <header>
         <h2 class="logo"><ion-icon name="rocket-outline"></ion-icon></h2>
         <nav class="navegacion">
-            <a href="detalles.html">Detalles</a>
-            <a href="servicios.html">Servicios</a>
-            <a href="#">Contacto</a>
+            <div class="enlaces-header">
+                <a href="detalles.html">Detalles</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="formulario.html">Contacto</a>
+            </div>
             <button class="btnLogin-popup" onclick="logout()">Logout</button>
         </nav>
         
     </header>
     <main>
-        <div id="proveedores-container">
+        
+            <div id="proveedores-container">
 
-            <script src="script.js"></script>
-            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        </div>
-        <script>
-            loadProveedores();
-        </script>    
+                <script src="script.js"></script>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            </div>
+            <script>
+                loadProveedores();
+            </script>
+       
+            
     </main>
     <footer>
         <p>&copy; 2025 Busqueda de Empleos. All rights reserved.</p>
