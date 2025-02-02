@@ -9,18 +9,17 @@
 
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    background-image: url('./static/fondo2.jpg');
+    background-image: url('./static/fondo6.jpg');
     background-size: cover;
     background-position: center;
    
 }
 
-header{
-    position: fixed;
-    top: 0;
+header{  
     left: 0;
     width: 100%;
     padding: 20px 100px;
@@ -30,6 +29,13 @@ header{
     align-items: center;
     z-index: 99;
 
+}
+
+footer{
+    background-color: rgba(16, 29, 38, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
 }
 
 .logo{
@@ -110,6 +116,15 @@ header{
     /*overflow: hidden;*/
     transition: height .2s ease;
 
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    div{
+        display: flex;
+        
+    }
 }
 
 .whapper .form-box.register{
@@ -259,6 +274,14 @@ header{
     text-decoration: underline;
 }
 
+.input-textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    color: #162938;
+}
+
 @media (max-width: 700px) {
     .navegacion {
         flex-direction: column;
@@ -268,7 +291,6 @@ header{
         text-align: center;
     }
     .wrapper{
-        margin-top: 250px;
+        width: 100%;
     }
-    
 }

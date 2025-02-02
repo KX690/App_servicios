@@ -9,10 +9,11 @@
 
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    background-image: url('./static/fondo2.jpg');
+    background-image: url('./static/fondo6.jpg');
     background-size: cover;
     background-position: center;
     
@@ -20,9 +21,6 @@ body{
 }
 
 header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 20px 100px;
     display: flex;
@@ -32,11 +30,19 @@ header{
     z-index: 99;
 }
 
+footer{
+    background-color: rgba(16, 29, 38, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
 .logo{
     font-size: 2em;
     color: rgb(255, 255, 255);
     user-select: none;
 }
+
 .navegacion a {
     position: relative;
     font-size: 1.1em;
@@ -111,7 +117,7 @@ header{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
-    padding-top:100px;
+   
 }
 .detalles {
     position: relative;
@@ -193,7 +199,5 @@ a{
 }
 
 @media (max-width: 700px) {
-    #proveedores-container {
-        padding-top: 120px; /* Espacio adicional en la parte superior */
-    }
+    
 }

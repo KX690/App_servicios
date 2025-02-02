@@ -12,58 +12,64 @@
         <header>
             <h2 class="logo"><ion-icon name="rocket-outline"></ion-icon></h2>
             <nav class="navegacion">
-                <a href="Detalles.html">Detalles</a>
+                <a href="detalles.html">Detalles</a>
                 <a href="servicios.html">Servicios</a>
                 <a href="#">Contacto</a>
                 <button class="btnLogin-popup" onclick="logout()">Logout</button>
             </nav>
             
         </header>
-
-        <div class="wrapper">
-            <span class="icon-close">
-                <ion-icon name="close-outline"></ion-icon>
-            </span>
-
-            <div class="form-box login">
-                <h2>Login</h2>
-                <form action="#">
-
-                    <div class="input-box">
-                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-                        <input type="text" required>
-                        <label>Email</label>
-                    </div>
-
-                    <div class="input-box">
-                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
-                        <input type="password" required>
-                        <label>Contraseña</label>
-                    </div>
-
-                    <div class="remember-forgot">
-                        <label>
-                            <input type="checkbox">
-                            Recordarme
-                        </label>
-                        <a href="#">¿Olvido su contraseña?</a>
-                    </div>
-
-                    <button type="submit" class="btn">Ingresar</button>
-
-                    <div class="login-register">
-                        <p>¿No tienes cuenta aun?
-                            <a href="register.html" class="register-link">Registrate</a>
-                        </p>
-                    </div>
-
-                </form>
+        <main>
+            <div class="wrapper">
+                <span class="icon-close">
+                    <ion-icon name="close-outline"></ion-icon>
+                </span>
+    
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form action="">
+    
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Email</label>
+                        </div>
+    
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password" required>
+                            <label>Contraseña</label>
+                        </div>
+    
+                        <div class="remember-forgot">
+                            <label>
+                                <input type="checkbox">
+                                Recordarme
+                            </label>
+                            <a href="#">¿Olvido su contraseña?</a>
+                        </div>
+    
+                        <button type="submit" class="btn" onclick="window.location.href='detalles.html'">Ingresar</button>
+    
+                        <div class="login-register">
+                            <p>¿No tienes cuenta aun?
+                                <a href="register.html" class="register-link">Registrate</a>
+                            </p>
+                        </div>
+    
+                    </form>
+                </div>
+                
             </div>
-            
-        </div>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        <script src="script.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script src="script.js"></script>
+        </main>
+        <footer>
+            <p>&copy; 2025 Busqueda de Empleos. All rights reserved.</p>
+        </footer>
     </body>
-
+        
+        
+        
 </html>
