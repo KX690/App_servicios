@@ -283,13 +283,23 @@ footer{
 }
 
 @media (max-width: 700px) {
-    .navegacion {
-        flex-direction: column;
-        
+    body{
+        display: flex;
+        align-items: center;
     }
-    .navegacion a {
-        padding: 10px;
-        text-align: center;
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navegacion a{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
     .wrapper{
         width: 100%;
