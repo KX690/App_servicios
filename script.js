@@ -44,3 +44,7 @@ function logout() {
 
 loadProveedores();
 
+function toggleMenu() {
+    const enlacesHeader = document.querySelector('.enlaces-header');
+    enlacesHeader.classList.toggle('active');
+}
